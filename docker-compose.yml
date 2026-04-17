@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  web:
+    build: manndarin/flask-app_pr4
+    ports:
+      - '5000:5000'
+    restart: always
